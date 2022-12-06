@@ -1,5 +1,3 @@
-provider "ibm" {
-}
 
 data "ibm_resource_group" "test" {
   name = var.resource_group
