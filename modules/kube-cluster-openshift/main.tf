@@ -1,5 +1,5 @@
 
-resource "ibm_container_cluster" "cluster" {
+resource "container_cluster" "cluster" {
   name                     = var.cluster_name
   datacenter               = var.worker_zone
   default_pool_size        = var.worker_nodes_per_zone
