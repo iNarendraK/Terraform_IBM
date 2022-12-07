@@ -1,5 +1,6 @@
-
-data "ibm_resource_group" "test" {
+provider "openshift" {
+}
+data "resource_group" "test" {
   name = var.resource_group
 }
 
